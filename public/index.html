@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notion-Timer</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="outer-container">
+        <header class="header">
+            <h1>Task Stopwatch</h1>
+        </header>
+
+        <main class="main-container" id="taskContainer">
+            <!-- Timer Box -->
+            <section class="stopwatch-box">
+                <p class="timer-label">Task Timer</p>
+                <div class="timer-display" id="stopwatch">00:00:00.000</div>
+                <div class="input-wrapper">
+                    <div class="emoji-container">
+                        <button type="button" id="emojiPicker" class="emoji-button">+</button>
+                        <div id="emojiPickerDropdown" class="emoji-dropdown hidden"></div>
+                    </div>
+                    <input type="text" id="taskTitle" class="task-input" placeholder="Enter task title here">
+                </div>
+                <div class="controls">
+                    <button id="startBtn" class="control-button start-btn">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none">
+                            <polygon points="5,3 19,12 5,21" fill="#34d399"></polygon>
+                        </svg>
+                    </button>
+                    <button id="stopBtn" class="control-button stop-btn" disabled>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none">
+                            <rect x="6" y="6" width="12" height="12" fill="#f87171"></rect>
+                        </svg>
+                    </button>
+                </div>
+            </section>
+            <button id="addTaskBtn" class="new-task-btn">+ New Task</button>
+
+            <!-- Activity Logs -->
+            <section class="log-section">
+                <h2>Activity Logs</h2>
+                <div id="timeLog" class="log-container">
+                    <!-- Logs will dynamically appear here -->
+                </div>
+            </section>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

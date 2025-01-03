@@ -1,0 +1,17 @@
+{
+  "name": "notion_timer",
+  "version": "1.0.0",
+  "main": "notion-test.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node notion-test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "dotenv": "^16.4.7"
+  },
+  "type": "module"
+}
