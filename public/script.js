@@ -247,3 +247,11 @@ async function saveTaskToBackend(task, startTime, stopTime) {
         console.error("Error saving task:", error);
     }
 }
+
+// Force app to open in a new window/tab
+if (window.opener == null) {
+    const newWin = window.open(window.location.href, "_blank", "width=1200,height=800");
+    if (newWin) {
+        window.close();
+    }
+}
