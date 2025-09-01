@@ -9,8 +9,8 @@ const __dirname = path.dirname(__filename);
 const app = express();
 const port = process.env.PORT || 3000;
 
-const notionIntegrationToken = process.env.NOTION_TOKEN || "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";
-const databaseId = process.env.NOTION_DATABASE_ID || "16fc761a07d88087a7a6f60fe800053e";
+const notionIntegrationToken = process.env.NOTION_TOKEN || "Input your token here";
+const databaseId = process.env.NOTION_DATABASE_ID || "Input your notion database";
 
 app.use(express.json());
 app.use(express.static(path.join(__dirname, "public")));
