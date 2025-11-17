@@ -7,8 +7,7 @@ Notion Timer helps you stay focused and track tasks or study sessions directly l
 
 ## 🔍 Overview
 
-**Notion Timer** is built for students, professionals, and creators who use Notion as their main productivity hub.  
-It connects your tasks and time tracking in one simple flow — allowing you to visualize session data or task durations while working.
+***Notion Timer*** is made for students, professionals, and creators who rely on Notion as their main productivity hub. It brings your tasks and time tracking together in one simple flow, helping you stay focused while you work. You can easily view your session data or see how long each task takes, all in the same place.
 
 You can:
 - Start, pause, and reset timers for individual Notion-linked tasks
